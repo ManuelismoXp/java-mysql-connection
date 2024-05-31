@@ -1,0 +1,5 @@
+# vcsode folder config project
+.vscode
+
+## drive de conexao
+./lib/mysql-connector-j-8.3.0.jar
