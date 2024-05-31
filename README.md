@@ -27,6 +27,11 @@ This project demonstrates how to configure and connect a Java application to a M
 
 2.1. Change the value of the query variable, place the query you want to execute in it
 
+### 3. Download the JDBC driver
+
+1. Access the link: https://downloads.mysql.com/archives/c-j
+2. Add the downloaded file to the lib folder
+
 ### 3. Note
 
 Don't forget to first create the database that you will add in the Conexao.java file
