@@ -1,18 +1,34 @@
-## Getting Started
+# Java MySQL Connection
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project demonstrates how to configure and connect a Java application to a MySQL database.
 
-## Folder Structure
+## Prerequisites
 
-The workspace contains two folders by default, where:
+- Java Development Kit (JDK) 8 or higher
+- MySQL Server
+- MySQL Connector/J (JDBC Driver for MySQL)
+- IDE or Text Editor: IntelliJ IDEA, Eclipse, NetBeans or Visual Studio Code
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Steps for Configuration
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 1. Clone the Project
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+``` git clone https://github.com/ManuelismoXp/java-mysql-connection.git ```
 
-## Dependency Management
+### 2. Change data in files
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. File conexao/Conexao.java
+
+1.1. Change the database name to your database name in the url variable
+1.2. Change the value of the user variable, enter the user from your database
+1.3. Change the value of the password variable, enter your user's password from your database
+
+2. File App.java
+
+2.1. Change the value of the query variable, place the query you want to execute in it
+
+### 3. Note
+
+Don't forget to first create the database that you will add in the Conexao.java file
+
+### 4. Execute the Project
